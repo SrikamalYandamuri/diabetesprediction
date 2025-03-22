@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://img.freepik.com/free-photo/world-diabetes-day-medical-equipment-wooden-floor_1150-26690.jpg?ga=GA1.1.548796761.1742623861&semt=ais_hybrid') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+.container {
+  background: #FFF0DC;
+  width: 40%;
+  margin-left: auto;
+  margin-right: 5%;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px #aaa;
+  border-radius: 100px;
+  margin-top: 50px;
+}
+
+/*
+.container {
+  background: #FFF0DC;
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px #aaa;
+  border-radius: 100px;
+  margin-top: 50px;
+}
+*/
+
+h1 {
+  color: #543A14;
+}
+
+input {
+  width: 60%;
+  max-width: 500px;
+  padding: 16px 20px;
+  margin: 16px 0;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-size: 18px;
+  color: #333;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  transition: all 0.4s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 12px 24px 0 rgba(0, 123, 255, 0.3);
+  transform: scale(1.03);
+  outline: none;
+}
+
+input::placeholder {
+  color: black;
+  font-style: italic;
+  font-size: 16px;
+}
+
+input:hover {
+  border-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  input {
+    width: 90%;
+    padding: 14px;
+  }
+}
+
+/* Button Styling */
+button {
+  padding: 0.1em 0.25em;
+  width: 13em;
+  height: 4.2em;
+  background-color: #212121;
+  border: 0.08em solid #fff;
+  border-radius: 0.3em;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.4em;
+  width: 8.25em;
+  height: 2.5em;
+  background-color: #212121;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  color: #fff;
+  border: 0.08em solid #fff;
+  box-shadow: 0 0.4em 0.1em 0.019em #fff;
+}
+
+button span:hover {
+  transition: all 0.5s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 #fff;
+}
+
+button span:not(hover) {
+  transition: all 1s;
+}
